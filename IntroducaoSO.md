@@ -23,15 +23,15 @@ Processamento sequencial jobs, monoprogramado, monousuário.
 - Usuário não interagia diretamente na máquina;
 - SO era simples.
 
-  - Job (tarefa)
-    - Criado pelo usuário; uso de cartões;
-    - Organizados pelo operador do lote, conforme as características/necessidades;
-    - Passagem entre diferentes jobs é manual;
-    - Saída aparecia algum tempo depois.
+- Job (tarefa)
+  - Criado pelo usuário; uso de cartões;
+  - Organizados pelo operador do lote, conforme as características/necessidades;
+  - Passagem entre diferentes jobs é manual;
+  - Saída aparecia algum tempo depois.
 
-  - CPU ociosa
-      - Velocidade dos dispositivos de entrada/saída x velocidade CPU.
-  - SO sempre residente na memória - Monitor residente.
+- CPU ociosa
+   - Velocidade dos dispositivos de entrada/saída x velocidade CPU.
+- SO sempre residente na memória - Monitor residente.
 
 ### Sistemas multiprogramados
 - Sistemas batch com discos;
@@ -77,4 +77,19 @@ Processamento sequencial jobs, monoprogramado, monousuário.
   #### Sistsemas Operacionais Distribuídos
 
 ### Sistemas de Tempo Real
-- 
+- Sistemas com propósito específico;
+- Aplicação dedicada;
+- Processamento precisa ser feito dentro dos limites de tempo 
+definidos;
+- Quase não é encontrada memória virtual nestes sistemas.
+
+## Considerações Finais
+
+### SO
+- Oferece ao usuário um ambiente conveniente para o 
+desenvolvimento e execução de programas;
+- Gerencia os recursos de um sistema de computação 
+de forma a garantir a correta e eficiente utilização dos 
+mesmos.
+
+### Multiprogramação
