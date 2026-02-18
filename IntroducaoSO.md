@@ -53,13 +53,13 @@
 - Inicialmente, não possuíam recursos para proteger o SO; não eram multiusuário, nem multitarefa;
 - MULTICS.
 
-### Sistemas monousuário
-
-### Sistemas multiusuário
-
-### Sistemas monotarefa
-
-### Sistemas multitarefa
+  #### Sistemas monousuário
+  
+  #### Sistemas multiusuário
+  
+  #### Sistemas monotarefa
+  
+  #### Sistemas multitarefa
 
 ### Sistemas Paralelos
 - Vários processadores;
