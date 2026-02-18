@@ -15,39 +15,39 @@
 - Sistemas multiprogramados;
 - Sistemas de tempo compartilhado.
 
-### Sistemas em lote (batch)
-Processamento sequencial jobs, monoprogramado, monousuário.
-- Máquinas grandes, operadas a partir de um console;
-- Dispositivos de entrada;
-- Dispositivos de saída;
-- Usuário não interagia diretamente na máquina;
-- SO era simples.
-
-- Job (tarefa)
-  - Criado pelo usuário; uso de cartões;
-  - Organizados pelo operador do lote, conforme as características/necessidades;
-  - Passagem entre diferentes jobs é manual;
-  - Saída aparecia algum tempo depois.
-
-- CPU ociosa
-   - Velocidade dos dispositivos de entrada/saída x velocidade CPU.
-- SO sempre residente na memória - Monitor residente.
-
-### Sistemas multiprogramados
-- Sistemas batch com discos;
-- E com as interrupções -> escalonamento de job -> multiprogramação;
-- Vários jobs na memória.
-
-- SO precisa tomar decisões;
-- Pool de jobs;
-- Escalonamento de Jobs e CPU;
-- Gerência de Memória e I/O.
-
-### Sistemas Timesharing ou Tempo Compartilhado
-- CPU executa vários jobs alternando entre eles;
-- Há uma divisão do tempo de processamento entre os vários usuários -> tempo de resposta;
-- Multiprogramação;
-- Tornam-se comuns no início da década de 70.
+  #### Sistemas em lote (batch)
+  Processamento sequencial jobs, monoprogramado, monousuário.
+  - Máquinas grandes, operadas a partir de um console;
+  - Dispositivos de entrada;
+  - Dispositivos de saída;
+  - Usuário não interagia diretamente na máquina;
+  - SO era simples.
+  
+  - Job (tarefa)
+    - Criado pelo usuário; uso de cartões;
+    - Organizados pelo operador do lote, conforme as características/necessidades;
+    - Passagem entre diferentes jobs é manual;
+    - Saída aparecia algum tempo depois.
+  
+  - CPU ociosa
+     - Velocidade dos dispositivos de entrada/saída x velocidade CPU.
+  - SO sempre residente na memória - Monitor residente.
+  
+  #### Sistemas multiprogramados
+  - Sistemas batch com discos;
+  - E com as interrupções -> escalonamento de job -> multiprogramação;
+  - Vários jobs na memória.
+  
+  - SO precisa tomar decisões;
+  - Pool de jobs;
+  - Escalonamento de Jobs e CPU;
+  - Gerência de Memória e I/O.
+  
+  #### Sistemas Timesharing ou Tempo Compartilhado
+  - CPU executa vários jobs alternando entre eles;
+  - Há uma divisão do tempo de processamento entre os vários usuários -> tempo de resposta;
+  - Multiprogramação;
+  - Tornam-se comuns no início da década de 70.
 
 ### Sistemas de Computadores Pessoais (desktop)
 - Inicialmente, não possuíam recursos para proteger o SO; não eram multiusuário, nem multitarefa;
