@@ -93,3 +93,25 @@ de forma a garantir a correta e eficiente utilização dos
 mesmos.
 
 ### Multiprogramação
+
+## Top 5 melhores computadores (Nov/25)
+- El Capitan
+  - Processador: AMD 4th Gen EPYC 24C 1.8GHz;
+  - SO: TOSS;
+  - EUA.
+- Frontier
+  - AMD Optimized 3rd Generation EPYC 64C 2GHz;
+  - HPE Cray OS;
+  - EUA.
+- Aurora
+  - Xeon CPU Max 9470 52C 2.4GHz;
+  - SUSE Linux Enterprise Server 15 SP4;
+  - EUA.
+- JUPITER Booster
+  - GH Superchip 72C 3GHz;
+  - Red Hat Enterprise Linux;
+  - Alemanha.
+- Eagle
+  - Xeon Platinum 8480C 48C 2GHz;
+  - Ubuntu 22.04;
+  - EUA.
