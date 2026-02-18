@@ -83,6 +83,8 @@
 definidos;
 - Quase não é encontrada memória virtual nestes sistemas.
 
+### Sistemas para Dispositivos Móveis
+
 ## Considerações Finais
 
 ### SO
