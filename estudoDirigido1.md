@@ -18,7 +18,7 @@
 	e) Carregar a rotina e tratar a interrupção
 
 ### 4.  Defina I/O síncrona e I/O assíncrona. Qual permite melhor uso da CPU?
-	Input/Output (entrada/saída). 
+	**Input/Output (entrada/saída).** 
 	I/O síncrona: mantém a CPU sincronizada, impossibilitando outras tarefas e desperdiçando CPU.
 	I/O assíncrona: permite outras tarefas, melhorando o desempenho multiprogramação.
 
@@ -26,7 +26,7 @@
 	O DMA aprimora técnicas habilitando dispositivos e controladores a transferir blocos de dados de e para a memória principal, o que libera o processador para executar instruções de software.
 
 ### 6.  Como funciona a RAM? Qual o ciclo básico de execução de uma instrução?
-	a RAM (Random Access Memory), é uma memória volátil de acesso aleatório, no sentido que processos podem acessar localizações de dados em qualquer ordem.
+	a RAM **(Random Access Memory)**, é uma memória volátil de acesso aleatório, no sentido que processos podem acessar localizações de dados em qualquer ordem.
 	Ciclo básico de execução de uma instrução:
 		a) Buscar uma instrução na RAM
 		b) Decodificar a instrução
@@ -41,13 +41,14 @@
 ### 8.  Em que consiste o uso de cache?
 	Memória intermediária/auxiliar, inclui os dados recentemente utilizados. Visa compatibilizar velocidade da CPU e da RAM.
 
-### 9.  Caracterize os diferentes tipos de proteção de hardware suportados em um sistema de computação.
-	- Modo Dual de Operação (processador) -
+### 9.  Caracterize os diferentes tipos de proteção de hardware suportados em um sistema de computação
+	**Modo Dual de Operação** (processador) -
 		Modo superior/monitor/kernel (todas as instruções do processador podem ser executadas)
 		Modo usuário (algumas instruções disponíveis)
-	- I/O - Instruções privilegiadas
-	- CPU - Temporizador de hardware, que periodicamente interrompe a CPU
-	- Memória principal -
+	**I/O** - Instruções privilegiadas
+	**CPU** - Temporizador de hardware, que periodicamente interrompe a CPU
+	**Memória principal** -
 		Proteção do espaço de endereçamento de cada tarefa (2 registradores: registrador base - 1° endereço da tarefa na memória. E registrador limite - tamanho da tarefa)
 		MMU - Unidade de Gerência de Memoria
 	
+
