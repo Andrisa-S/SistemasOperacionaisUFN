@@ -39,8 +39,8 @@
     - Somente um subconjunto de instruções do processador, registradores e portas de E/S estão disponíveis.
     - Caso o código em execução tentar executar uma instrução não disponível, será gerada uma exceção.
   - Chaveamento de modos.
-    - Interrupção (modo usuário  modo supervisor);
-    - Instrução (modo supervisor  modo usuário).
+    - Interrupção (modo usuário -> modo supervisor);
+    - Instrução (modo supervisor -> modo usuário).
 ------------------------------------------------------------
 - Proteção de memória;
 - Proteção de CPU.
