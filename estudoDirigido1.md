@@ -42,4 +42,12 @@
 	Memória intermediária/auxiliar, inclui os dados recentemente utilizados. Visa compatibilizar velocidade da CPU e da RAM.
 
 ### 9.  Caracterize os diferentes tipos de proteção de hardware suportados em um sistema de computação.
+	- Modo Dual de Operação (processador) -
+		Modo superior/monitor/kernel (todas as instruções do processador podem ser executadas)
+		Modo usuário (algumas instruções disponíveis)
+	- I/O - Instruções privilegiadas
+	- CPU - Temporizador de hardware, que periodicamente interrompe a CPU
+	- Memória principal -
+		Proteção do espaço de endereçamento de cada tarefa (2 registradores: registrador base - 1° endereço da tarefa na memória. E registrador limite - tamanho da tarefa)
+		MMU - Unidade de Gerência de Memoria
 	
