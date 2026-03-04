@@ -1,0 +1,10 @@
+cd - ir para diretório (.. para voltar)
+mkdir - criar diretório
+rm - apagar arquivos
+rmdir - apagar diretório
+ls - mostra o que tem no diretório
+getid - cria arquivo
+mv - move um arquivo de um diretório para o outro (se mesmo diretório, muda o nome)
+gcc *nome do programa* -o *nome do programa* - compila o programa
+./*nome do programa* - executa
+pstree - árvore de processos
