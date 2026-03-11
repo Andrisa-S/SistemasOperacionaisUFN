@@ -5,6 +5,6 @@ rmdir - apagar diretório
 ls - mostra o que tem no diretório
 gedit - cria arquivo
 mv - move um arquivo de um diretório para o outro (se mesmo diretório, muda o nome)
-gcc *nome do programa* -o *nome do programa* - compila o programa
-./*nome do programa* - executa
+gcc *nome do executável* -o *nome do programa*.c - compila o programa
+./*nome do executável* - executa
 pstree - árvore de processos
