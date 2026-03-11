@@ -163,28 +163,28 @@
     - É executado com muito menos frequência (minutos);
     - Deve selecionar processos com cuidado a fim de balancear a carga do sistema;
     - Controla o **grau de multiprogramação**
-      - Número de processos na memória;
-      - Grau estável
+      * Número de processos na memória;
+      * Grau estável
         * Taxa média de criação de processos = Taxa média de saída de processos no sistema.
     - **Chamado** somente quando os **processos saem** do sistema;
     - Seleciona um boa combinação de
-      - Processos I/O Bound;
-      - Processos CPU Bound.
+      * Processos I/O Bound;
+      * Processos CPU Bound.
     - Muitos I/O Bound: Fila de prontos vazia;
     - Muitos CPU  Bound: Fila de I/O vazia; dispositivos sem uso.
   - Escalonador de LCurto Prazo - *Short-Term*
     - Seleciona processos a partir da **fila de prontos**
-      - **Processos que concorrem á CPU.
+      * **Processos que concorrem á CPU.
     - A principal diferença entre escalonadores de Curto e Longo Prazo é a frequência de execução;
     - Deve selecionar novos processos com bastante frequência (milisegundos);
     - Deve ser bastante rápido pois pode-se perder mais de 10% do tempo somente com escalonamento.
   - Escalonador de Médio Prazo - *Medium-Term*
     - Nível intermediário de escalonamento;
     - Usa a idéia de que às vezes pode-se ter vantagens em remover o processo da memória, **reduzindo o nível de multiprogramação**
-      - Posteriormente retorna ao ponto onde parou a execução.
+      * Posteriormente retorna ao ponto onde parou a execução.
     - Útil para
-      - Melhorar a combinação de processos;
-      - Mudança de requisitos durante a execução dos processos compromete a memória disponível.
+      * Melhorar a combinação de processos;
+      * Mudança de requisitos durante a execução dos processos compromete a memória disponível.
     - *Swapping*.
   
 ## Operações nos processos
