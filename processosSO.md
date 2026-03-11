@@ -158,6 +158,7 @@
   - Responsável por **selecionar o processo** (nas várias filas) que será alocado na CPU;
   - **Processos migram** entre as várias filas de escalonamento durante sua vida.
   <img width="619" height="130" alt="image" src="https://github.com/user-attachments/assets/c185ce84-750b-4681-94fa-d19592ae825d" />
+  
   - Escalonador de Longo Prazo - *Long-Term*
     - **seleciona processos** e os **carrega na memória** para execução;
     - É executado com muito menos frequência (minutos);
