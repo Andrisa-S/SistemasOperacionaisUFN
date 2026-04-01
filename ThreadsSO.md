@@ -102,7 +102,7 @@
     - Escalonamento de 2 níveis
       - Nível de usuário
       - Nível de sistema
-    <img width="169" height="237" alt="image" src="https://github.com/user-attachments/assets/f23003b0-fe44-4361-92b9-c42c2a1d2c2d" />
+      - <img width="169" height="237" alt="image" src="https://github.com/user-attachments/assets/f23003b0-fe44-4361-92b9-c42c2a1d2c2d" />
     - É possível criar tantos threads quantos forem necessários
     - Há um número de threads específico por aplicação ou máquina
     - Bloqueio -> escalonar outra para execução
