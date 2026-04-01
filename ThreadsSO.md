@@ -71,8 +71,8 @@
   * Menor custo para criação/destruição
   * O SO divide o tempo entre os processos
     - São manipuladas através de um único fluxo de instrução pertence a um processo
-
-    <img width="172" height="191" alt="image" src="https://github.com/user-attachments/assets/ceb74061-af76-4421-b630-db5ba9036249" />
+      
+    - <img width="172" height="191" alt="image" src="https://github.com/user-attachments/assets/ceb74061-af76-4421-b630-db5ba9036249" />
 
   - A troca de contexto entre threads é feita no modo usuário pelo escalonador embutido na biblioteca
   - Se um thread está efetuando E/S, acontece o bloqueio de todas as threads do sistema
