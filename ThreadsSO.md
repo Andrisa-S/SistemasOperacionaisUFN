@@ -86,7 +86,7 @@
     - Maior custo de gerenciamento
       - Exigem chamadas ao SO
       - Troca de contexto exige a intervenção do SO
-    <img width="183" height="186" alt="image" src="https://github.com/user-attachments/assets/f6119a69-2c11-4e2e-a54b-0e839c74945f" />
+      - <img width="183" height="186" alt="image" src="https://github.com/user-attachments/assets/f6119a69-2c11-4e2e-a54b-0e839c74945f" />
     - É possível a execução pararela (ambiente multiprocessado)
     - Permite sobrepor operações de processamento em I/O
     - Desempenho da aplicação
